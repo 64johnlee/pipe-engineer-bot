@@ -1,0 +1,12 @@
+{
+  "name": "engineer-bot",
+  "description": "Watches your screen for GitHub and Linear issues you're working on, then auto-generates intelligent comments using your screen context — standups, progress updates, blockers, and more.",
+  "version": "1.0.0",
+  "author": "64johnlee",
+  "crons": [
+    {
+      "path": "/api/cron/detect",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
