@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.0",
-    "@screenpipe/js": "^0.1.0",
+    "@screenpipe/js": "^1.0.21",
     "ai": "^4.0.0",
     "next": "^14.2.0",
     "react": "^18.3.0",
